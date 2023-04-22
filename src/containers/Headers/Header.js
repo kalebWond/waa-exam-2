@@ -12,8 +12,8 @@ const Header = () => {
         <header>
             <nav>
                 <ul>
-                    <li>Employee</li>
-                    <li>Add Employee</li>
+                    <li><Link to="/employees">Employees</Link></li>
+                    <li><Link to="/add-employee">Add Employee</Link></li>
                 </ul>
             </nav>
         </header>

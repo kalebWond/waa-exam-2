@@ -8,7 +8,7 @@ import Employee from '../../components/Employee';
 export default function Dashboard() {
 
 
-const [selectedStudents, setSelectedStudents] = useState([]);
+// const [selectedStudents, setSelectedStudents] = useState([]);
 
     return (
         <React.Fragment>

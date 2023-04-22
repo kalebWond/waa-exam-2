@@ -1,14 +1,19 @@
+import { Link } from "react-router-dom";
 
 
-function Employee(props){
+function Employee({ id, name }) {
 
-    return <div className="Content" >
-            <h1>{props.id}</h1>
-            <div className="Info">
-                <div className="Author">{props.name}</div>
+    return (
+        <Link to={"/employees/"+id}>
+            <div className="Content" >
+                <h1>{id}</h1>
+                <div className="Info">
+                    <div className="Author">{name}</div>
+                </div>
+                <br />
             </div>
-            <br/>
-        </div>
+        </Link>
+    )
 
 }
 
